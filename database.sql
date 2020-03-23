@@ -12,7 +12,7 @@
 
 --CREATE TABLE Walks (
 --    Id INTEGER NOT NULL PRIMARY KEY IDENTITY,
---    [Date] datetime NOT NULL,
+--    [Date] DATETIME NOT NULL,
 --    Duration INTEGER NOT NULL,
 --    WalkerId INTEGER,
 --    DogId INTEGER,
@@ -53,20 +53,22 @@
 --INSERT INTO Dog([Name], OwnerId, Breed, Notes) VALUES ('Dino', 3, 'Snorkasaurus', 'Will lick owner whenever he sees him');
 
 
---Walks still is not being added to database, might be the datatime
-INSERT INTO Walks([Date], Duration, WalkerId, DogId) VALUES (2020-03-17, 35, 1, 1);
-INSERT INTO Walks([Date], Duration, WalkerId, DogId) VALUES (2020-03-17, 35, 1, 2);
-INSERT INTO Walks([Date], Duration, WalkerId, DogId) VALUES (2020-03-17, 45, 2, 3);
-INSERT INTO Walks([Date], Duration, WalkerId, DogId) VALUES (2020-03-17, 30, 3, 4);
-INSERT INTO Walks([Date], Duration, WalkerId, DogId) VALUES (2020-03-18, 40, 1, 1);
-INSERT INTO Walks([Date], Duration, WalkerId, DogId) VALUES (2020-03-18, 40, 1, 2);
-INSERT INTO Walks([Date], Duration, WalkerId, DogId) VALUES (2020-03-18, 35, 2, 3);
-INSERT INTO Walks([Date], Duration, WalkerId, DogId) VALUES (2020-03-18, 35, 3, 4);
-INSERT INTO Walks([Date], Duration, WalkerId, DogId) VALUES (2020-03-19, 40, 1, 1);
-INSERT INTO Walks([Date], Duration, WalkerId, DogId) VALUES (2020-03-19, 40, 1, 2);
-INSERT INTO Walks([Date], Duration, WalkerId, DogId) VALUES (2020-03-19, 45, 2, 3);
-INSERT INTO Walks([Date], Duration, WalkerId, DogId) VALUES (2020-03-19, 45, 3, 4);
+--INSERT INTO Walks([Date], Duration, WalkerId, DogId) VALUES (2020-03-17, 35, 1, 6);
+--INSERT INTO Walks([Date], Duration, WalkerId, DogId) VALUES (2020-03-17, 35, 1, 7);
+--INSERT INTO Walks([Date], Duration, WalkerId, DogId) VALUES (2020-03-17, 45, 2, 8);
+--INSERT INTO Walks([Date], Duration, WalkerId, DogId) VALUES (2020-03-17, 45, 2, 9);
+--INSERT INTO Walks([Date], Duration, WalkerId, DogId) VALUES (2020-03-17, 30, 3, 10);
+--INSERT INTO Walks([Date], Duration, WalkerId, DogId) VALUES (2020-03-18, 40, 1, 6);
+--INSERT INTO Walks([Date], Duration, WalkerId, DogId) VALUES (2020-03-18, 40, 1, 7);
+--INSERT INTO Walks([Date], Duration, WalkerId, DogId) VALUES (2020-03-18, 35, 2, 8);
+--INSERT INTO Walks([Date], Duration, WalkerId, DogId) VALUES (2020-03-18, 35, 2, 9);
+--INSERT INTO Walks([Date], Duration, WalkerId, DogId) VALUES (2020-03-18, 35, 3, 10);
+--INSERT INTO Walks([Date], Duration, WalkerId, DogId) VALUES (2020-03-19, 40, 1, 6);
+--INSERT INTO Walks([Date], Duration, WalkerId, DogId) VALUES (2020-03-19, 40, 1, 7);
+--INSERT INTO Walks([Date], Duration, WalkerId, DogId) VALUES (2020-03-19, 45, 2, 8);
+--INSERT INTO Walks([Date], Duration, WalkerId, DogId) VALUES (2020-03-19, 45, 2, 9);
+--INSERT INTO Walks([Date], Duration, WalkerId, DogId) VALUES (2020-03-19, 45, 3, 10);
 
 --INSERT INTO Owner([Name], [Address], NeighborhoodId, Phone) VALUES ('Shaggy Rogers', '123 Coolsville Lane', 1, '888-123-4567');
 --INSERT INTO Owner([Name], [Address], NeighborhoodId, Phone) VALUES ('George Jetson', '123 Skypad Appartments', 2, '888-123-4567');
---INSERT INTO Owner([Name], [Address], NeighborhoodId, Phone) VALUES ('Shaggy Rogers', '55 Cobblestone Rd.', 3, '888-123-4567');
+--INSERT INTO Owner([Name], [Address], NeighborhoodId, Phone) VALUES ('Fred Flintstone', '55 Cobblestone Rd.', 3, '888-123-4567');
